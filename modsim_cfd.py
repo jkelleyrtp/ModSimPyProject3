@@ -5,11 +5,15 @@ from emojipy import Emoji #😂😂😂😂😂😂😂
 
 #from modsim_cdf import image2cdf, emoji2image
 
-def image2cdf():
+def image2cdf(image, image_width = 1):
     
-    pass
-
-
+    aerodynamics = {'coefficient_of_drag' : .3, 
+                    'coefficient_of_lift' : 1,
+                    'wing_area'           : 1,
+                    'frontal_area'        : .2,
+                    'properties'          : 1}
+    return aerodynamics
+    
 def emoji2cdf(emoji, emoji_width = 1):
     '''
     Converts the inputted emoji to numpy array and feeds it into image2cdf.
@@ -20,5 +24,12 @@ def emoji2cdf(emoji, emoji_width = 1):
     start = a.find("src=")
     link = a[start+5: -3]
     im = imageio.imread(link)
+    
+    aerodynamics = {'coefficient_of_drag' : .3, 
+                    'coefficient_of_lift' : 1,
+                    'wing_area'           : 1,
+                    'frontal_area'        : .2,
+                    'properties'          : 1}
+    return aerodynamics
     
     
