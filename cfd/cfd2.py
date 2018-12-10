@@ -559,7 +559,7 @@ def eval_image(image, r=[180], plot=True):
             print(a)
             drag, lift = getPressure(xList, yList, scale=7.5, aoa=a, div=30, xShift=0, yShift=0, plot=True)
             tmp.append([a, drag, lift])
-        return [emoji, tmp]
+        return tmp
 
 if __name__ == '__main__':
 
