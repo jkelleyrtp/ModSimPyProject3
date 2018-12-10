@@ -536,7 +536,9 @@ def getPressure(xData, yData, scale, div=20, aoa=0, xShift=0, yShift=0, plot=Fal
 from multiprocessing import Pool
 
 def eval_emoji(emoji, r=[180], plot=True):
-        image = emoji2image(emoji)
+    return eval_image(emoji2image(emoji), r=[180], plot=True)
+
+def eval_image(image, r=[180], plot=True):
         contours = img2contour(image)
         contours = contours[0]
         contours = contours.reshape((contours.shape[0], contours.shape[-1]))
