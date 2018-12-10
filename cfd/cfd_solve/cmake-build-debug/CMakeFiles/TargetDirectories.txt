@@ -1,0 +1,3 @@
+/home/solomon/code/modsim_proj3/cfd_solve/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/solomon/code/modsim_proj3/cfd_solve/cmake-build-debug/CMakeFiles/cfd_solve.dir
+/home/solomon/code/modsim_proj3/cfd_solve/cmake-build-debug/CMakeFiles/edit_cache.dir

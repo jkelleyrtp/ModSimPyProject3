@@ -1,0 +1,14 @@
+[
+    {
+        "arguments": [
+            "/usr/bin/c++",
+            "-c",
+            "-std=gnu++14",
+            "-o",
+            "CMakeFiles/cfd_solve.dir/main.cpp.o",
+            "../main.cpp"
+        ],
+        "directory": "/home/solomon/code/modsim_proj3/cfd_solve/build",
+        "file": "../main.cpp"
+    }
+]
